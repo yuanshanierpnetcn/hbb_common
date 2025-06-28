@@ -100,8 +100,10 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.com"];
-pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["rustdesk.i-erp.net.cn","vultr.i-erp.net.cn"];
+// 如果您部署了专业版服务器，这里也填您的服务器地址或域名
+pub const RS_API_SERVER: &'static str = "http://64.176.37.81:21114"; 
+pub const RS_PUB_KEY: &str = "3somc9y2v807yoW4uMIUBGe2MDUc3SPGa4726mz+omA=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
